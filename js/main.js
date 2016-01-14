@@ -1,6 +1,7 @@
 $(function(){
   var flavors = ["rocky-road", "pistacio", "cookiedough"];
-  flavors.forEach(function(flavor) {
-    $("#creamflav").append( "<li>" + flavor + "</li>");
-  });
+  for (var index = 0; index < flavors.length; index += 1){
+    debugger;
+    $(".creamflav").append( "<li>" + flavors[index] + "</li>");
+  };
 });
